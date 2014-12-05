@@ -119,6 +119,10 @@ header {
 }
 header a{
 	text-decoration: none;
+	color: lightgray;
+}
+header a:visited{
+	color: gray;
 }
 
 header a:hover{
@@ -127,7 +131,7 @@ header a:hover{
 
 #links a{
 	display: inline-block;
-	margin: 0 5em;
+	margin: 0 2.5em;
 }
 #links a:first-child {
 	margin-left: 1em;
