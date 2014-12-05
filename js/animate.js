@@ -27,7 +27,7 @@ function runner()
 	}
 	setTimeout(runner, 100);
 }
-document.addEventListener('load', function(){
+window.addEventListener('load', function(){
 	div = document.getElementById('change');
 	runner();
 });
