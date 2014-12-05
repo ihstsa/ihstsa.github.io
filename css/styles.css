@@ -22,6 +22,11 @@ float: left;
 
 /*Content*/
 
+#title {
+	font-size: 30pt;
+	margin-left: 0.5em;
+}
+
 #opening{
 position: relative;
 display: block;
@@ -92,14 +97,13 @@ height: 10%;
 /*Links*/
 
 #links{
-min-width: 100%;
+background-color: rgb(40,66,105);
 width: 100%;
+top: 0px;
 position: fixed;
-display: inline-block;
-height: 60px;
 min-height: 60px;
-text-align: center;
 z-index: 10;
+font-size: 28px;
 }
 
 .shadow{
@@ -113,23 +117,17 @@ box-shadow: 2px 0px 20px black inset;
 }
 
 #links a{
-display: inline-block;
-position: relative;
-background-color: rgb(40,66,105);
-margin-right: -5px;
-height: 100%;
-width: 150px;
-line-height: 80%;
-text-align: center;
-z-index: 1;
-align-self: center;
-font-size: 28px;
-text-decoration: none;
-color: white;
+	display: inline-block;
+	margin: 0 5em;
+	text-decoration: none;
+	color: gray;
+}
+#links a:first-child {
+	margin-left: 1em;
 }
 
 #links a:hover{
-    color: blue;
+    color: white;
 }
 
 /*Text and Images*/
