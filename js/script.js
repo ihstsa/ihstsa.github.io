@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
 	var header = document.getElementsByTagName('header')[0];
 	var h;
 	var cs = document.defaultView.getComputedStyle(title, '');
-	h = el.offsetHeight + parseFloat(cs.getPropertyValue('margin-top')) + parseFloat(cs.getPropertyValue('margin-bottom'))
+	h = title.offsetHeight + parseFloat(cs.getPropertyValue('margin-top')) + parseFloat(cs.getPropertyValue('margin-bottom'))
 	window.addEventListener('scroll', function(){
 		if(window.scrollY > h){
 			header.style.marginBottom = el.offsetHeight + 'px';
