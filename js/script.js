@@ -2,12 +2,15 @@ window.addEventListener('load', function(){
 	var el = document.getElementById('links');
 	var title = document.getElementById('title');
 	window.addEventListener('scroll', function(){
+	//return;
 		if(window.scrollY > title.offsetHeight){
-			title.style.marginBottom = el.offsetHeight + 'px';
+			title.style.marginBottom = el.offsetHeight*1.75 + 'px';
 			el.style.position = 'fixed';
+			el.style.width = '100%';
 		}else{
-			title.style.marginBottom = 0;
+			title.style.marginBottom = '';
 			el.style.position = 'initial';
+			el.style.width = '';
 		}
 	});
 });
