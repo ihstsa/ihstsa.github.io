@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
 	window.addEventListener('scroll', function(){
 	//return;
 		if(window.scrollY > title.offsetHeight){
-			title.style.marginBottom = el.offsetHeight*1.75 + 'px';
+			title.style.marginBottom = el.offsetHeight + 'px';
 			el.style.position = 'fixed';
 			el.style.width = '100%';
 		}else{

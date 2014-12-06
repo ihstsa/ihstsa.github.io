@@ -25,6 +25,7 @@ a:hover{
 #content {
 	margin: 0 auto;
 	width: 80%;
+	overflow: auto;
 }
 p {
 	text-indent: 1em;
