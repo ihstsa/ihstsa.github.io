@@ -33,6 +33,7 @@ a:hover{
 #title {
 	font-size: 30pt;
 	padding-left: 0.5em;
+	color: white;
 }
 
 #opening{
@@ -111,19 +112,9 @@ header a:hover{
 }
 
 /*Text and Images*/
-
-h1{
-    text-align: center;
-    line-height: 160%;
-    color: white;
-    font-size: 50px;
-    font-weight: lighter;
-}
-
-h2{
-text-align: center;
-font-size: 48px;
-font-weight: lighter;
+h1, h2, h3 {
+	text-align: center;
+	font-weight: lighter;
 }
 
 .wordswitcher{
@@ -135,18 +126,12 @@ float: left;
 text-align: left;
 }
 
-h3{
-font-size: 24px;
-font-weight: lighter;
-}
-
 .textleft{
 text-align: left;
 }
 
 p {
-font-size: 18px;
-line-height: 30px;
+	line-height: 150%;
 }
 
 .caption1{
