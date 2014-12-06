@@ -22,7 +22,7 @@
 	<a href="contact.html">Contact</a>
    </div>
   </header>
-  <h2>{{ page.title }}
+  {% if noheader == null %}<h2>{{ page.title }}</h2>{% endif %}
   <div id="content">
    {{ content }}
   </div>
