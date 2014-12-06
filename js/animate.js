@@ -8,7 +8,7 @@ function runner()
 {
 	var word = words[wordIndex];
 	charIndex += delta;
-	div.innerText = word.substring(0, charIndex);
+	div.textContent = word.substring(0, charIndex);
 	if(charIndex == word.length && delta == 1)
 	{
 		delta = -1;
