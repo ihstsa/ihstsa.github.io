@@ -19,6 +19,9 @@ a:link {
 a:hover{
 	color: blue;
 }
+.block {
+	display: block;
+}
 
 /*Content*/
 
@@ -26,9 +29,6 @@ a:hover{
 	margin: 0 auto;
 	width: 80%;
 	overflow: auto;
-}
-p {
-	text-indent: 1em;
 }
 #title {
 	font-size: 30pt;
