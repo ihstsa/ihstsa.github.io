@@ -144,8 +144,7 @@ text-align: left;
 }
 
 .paraimage{
-position: relative;
-display: inline;
+display: block;
 max-height: 50%;
 max-width: 50%;
 }
