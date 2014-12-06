@@ -9,11 +9,9 @@ window.addEventListener('load', function(){
 		if((window.pageYOffset || document.documentElement.scrollTop) > h){
 			header.style.marginBottom = el.offsetHeight + 'px';
 			el.style.position = 'fixed';
-			el.style.width = '100%';
 		}else{
 			header.style.marginBottom = '';
 			el.style.position = '';
-			el.style.width = '';
 		}
 	});
 });
