@@ -3,7 +3,7 @@ window.addEventListener('load', function(){
 	var title = document.getElementById('title');
 	var h;
 	var cs = document.defaultView.getComputedStyle(title, '');
-	h = el.offsetHeight + cs.getPropertyValue('margin-top') + cs.getPropertyValue('margin-bottom')
+	h = el.offsetHeight + parseFloat(cs.getPropertyValue('margin-top')) + parseFloat(cs.getPropertyValue('margin-bottom'))
 	window.addEventListener('scroll', function(){
 		if(window.scrollY > h){
 			title.style.marginBottom = el.offsetHeight + 'px';
