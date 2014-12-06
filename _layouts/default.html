@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-{% capture title %}{% if page.fulltitle %}{{ page.fulltitle }}{% else %}IHSTSA - {{ page.title }}{% endif %}{% endcapture %}
+
 <html>
  <head>
-  <title>{{ title }}</title>
+  <title>IHSTSA - {{ page.title }}</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/styles.css" />
   <script type="text/javascript" src="js/script.js"></script>
@@ -12,7 +12,7 @@
  <body>
   <header>
    <div id="title">
-   {{ title }}
+   IHSTSA
    </div>
    <div id="links">
     <a href=".">Home</a>
@@ -22,6 +22,7 @@
 	<a href="contact.html">Contact</a>
    </div>
   </header>
+  <h2>{{ page.title }}
   <div id="content">
    {{ content }}
   </div>
