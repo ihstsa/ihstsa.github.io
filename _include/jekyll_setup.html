@@ -1,0 +1,22 @@
+{% capture socialmedia %}<p>What's happening in Ithaca High School TSA? Follow us on <a class="plink" href="https://www.facebook.com/IHSTSA">Facebook</a> and <a class="plink" href="https://twitter.com/ihstsa">Twitter</a></p>{% endcapture %}
+{% capture quicknews %}
+<ul>
+{% for item in site.data.news limit:3 %}
+	<li>
+		<strong>{{ item.title }}</strong>
+		<p>{{ item.date }} - {{ item.content }}
+	</li>
+{% endfor %}
+</ul>
+{% endcapture %}
+
+{% capture news %}
+<ul>
+{% for item in site.data.news %}
+	<li>
+		<strong>{{ item.title }}</strong>
+		<p>{{ item.date }} - {{ item.content }}
+	</li>
+{% endfor %}
+</ul>
+{% endcapture %}
