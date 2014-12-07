@@ -1,0 +1,9 @@
+<ul>
+{% for item in site.data.news %}
+	<li>
+		<a name="{{ item.date | append:"-" | append:item.title | truncatewords:3 | slugify }}"></a>
+		<strong>{{ item.title }}</strong>
+		<p>{{ item.date }} - {{ item.content }}
+	</li>
+{% endfor %}
+</ul>

@@ -1,16 +1,16 @@
 window.addEventListener('load', function(){
 	var el = document.getElementById('links');
 	var title = document.getElementById('title');
-	var header = document.getElementsByTagName('header')[0];
+	var spacer = document.getElementById('spacer');
 	var h;
 	var cs = document.defaultView.getComputedStyle(title, '');
 	h = title.offsetHeight + parseFloat(cs.getPropertyValue('margin-top')) + parseFloat(cs.getPropertyValue('margin-bottom'))
 	window.addEventListener('scroll', function(){
 		if((window.pageYOffset || document.documentElement.scrollTop) > h){
-			header.style.marginBottom = el.offsetHeight + 'px';
+			spacer.style.height = el.offsetHeight + 'px';
 			el.style.position = 'fixed';
 		}else{
-			header.style.marginBottom = '';
+			spacer.style.height = '';
 			el.style.position = '';
 		}
 	});

@@ -1,0 +1,10 @@
+<ul>
+{% for item in site.data.news limit:3 %}
+	<li>
+		<strong>{{ item.title }}</strong>
+		{% capture aname %}{{ item.date }}-{{ item.title }}{% endcapture %}
+		{% capture toappend %}... <a href="news.html#{{ aname | truncatewords:3 | slugify }}">More</a>{% endcapture %}
+		<p>{{ item.date }} - {{ item.content | truncatewords:15,toappend }}
+	</li>
+{% endfor %}
+</ul>
