@@ -1,0 +1,3 @@
+{% capture newline %}
+{% endcapture %}{% assign contentlines = include.content | split: newline %}{% for line in contentlines %}{{ prepend | append: line }}
+{% endfor %}
