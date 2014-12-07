@@ -4,6 +4,7 @@ title: Home
 script: animate.js
 noheader: true
 ---
+{% include jekyll_setup.liquid %}
 <div class="section">
 	<h3>Bringing students and </span><span id ='change'></span><span> together.</h3>
 	<p>
@@ -37,23 +38,7 @@ noheader: true
 {{ socialmedia }}
 
 <!--Keep ordered, and only display the most recent three events here. Find the format commented out in news.html, but probably, no pictures go in this section of index.html.-->
-<ul id="newsitems">
-	<li>
-		<strong>Ithaca High School TSA Gets a New Website!</strong>
-		<p>11/30/14 - Ithaca High School TSA member Tristan E. wrote a Ithaca High School TSA a new website (you're on it), with help from Paul F.Y., Freya R. and Jacob S. <a href="news.html#newwebsite">Learn more</a></p>
-	</li>
-	<li>
-		<strong>Ithaca High School TSA Represented at IthacaSTEM Advocates Networking Night</strong>
-		<p>11/19/14 - Chapter officers Zak S., Jacob S., Freya R., and Tristan E., represented Ithaca High School TSA to local teachers, technology businesses, students, and others at the IthacaSTEM Advocates Networking Night... <a href="news.html#ithacastemnight">Learn more</a></p>
-	</li>
-	<li>
-		<strong>New Chapter Officers Chosen</strong>
-		<p>10/16/14 - At a meeting of Ithaca High School TSA, Zak S. was elected to the position of president (Supreme Overlord) and Jacob S. was elected vice-president (Junior Supreme Overlord)... <a href="news.html#eventname">Learn more</a></p>
-	</li>
-	<li>
-		<a href="news.html">Older News</a>
-	</li>
-</div>
+{{ quicknews }}
 
 <div id="support" class="section">
 	<a name="support"></a>
