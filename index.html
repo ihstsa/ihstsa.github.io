@@ -35,7 +35,7 @@ noheader: true
 <h3>News</h3>
 {{ socialmedia }}
 
-<!--Keep ordered, and only display the most recent three events here. Find the format commented out in news.html, but probably, no pictures go in this section of index.html.-->
+{% comment %} Enter news items in _data/news.yaml. They will be displayed automatically here{% endcomment %}
 {% include quicknews.html %}
 </div>
 
@@ -48,7 +48,5 @@ noheader: true
 
 <div id="contact" class="section">
 	<h3>Contact Us</h3>
-	<div>Email: ihstsa@gmail.com</div>
-	<div>Mail: 1401 N Cayuga St, Ithaca, NY, 14850</div>
-	<div><em>Image of business card Mk II</em></div>
+	{% include contact.html %}
 </div>
