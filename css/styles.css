@@ -105,9 +105,23 @@ header a:hover{
 }
 
 /*Text and Images*/
-h1, h2, h3 {
-	text-align: center;
-	font-weight: lighter;
+
+h1{
+font-size: 50px;
+font-weight: lighter;
+text-align: center;
+}
+
+h2{
+font-size: 40px;
+font-weight: lighter;
+text-align: center;
+}
+
+h3{
+font-size: 30px;
+font-weight: lighter;
+text-align: center;
 }
 
 .wordswitcher{
