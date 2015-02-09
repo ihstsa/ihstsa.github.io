@@ -172,7 +172,7 @@ a#show:hover + #supportimg, #supportimg:hover{
   display: inline-block;
 }
 
-contact{
+#contact{
 background-image: url("https://cloud.githubusercontent.com/assets/3527106/6100315/86913640-afdb-11e4-847f-00660029aed5.png");
 height: 100%;
 width 100%;
