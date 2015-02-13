@@ -18,11 +18,11 @@ a:hover{
 /*Content*/
 
 #content {
-	width: 100%;
+	width: 80%;
 	overflow-y: auto;
 	padding-left: 10%;
 	padding-right: 10%;
-	display: inline-block;
+	background-color: green;
 }
 #title {
 	font-size: 30pt;
