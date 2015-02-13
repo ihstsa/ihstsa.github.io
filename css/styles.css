@@ -20,6 +20,8 @@ a:hover{
 #content {
 	width: 100%;
 	overflow-y: auto;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 #title {
 	font-size: 30pt;
