@@ -20,9 +20,6 @@ a:hover{
 #content {
 	width: 80%;
 	overflow-y: auto;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: blue;
 }
 #title {
 	font-size: 30pt;
@@ -108,22 +105,9 @@ header a:hover{
 
 /*Text and Images*/
 
-h1{
-font-size: 50px;
-font-weight: lighter;
-text-align: center;
-}
-
-h2{
-font-size: 40px;
-font-weight: lighter;
-text-align: center;
-}
-
-h3{
-font-size: 30px;
-font-weight: lighter;
-text-align: center;
+h1, h2, h3{
+	font-weight: lighter;
+	text-align: center;
 }
 
 .wordswitcher{
@@ -172,12 +156,4 @@ a#show:hover + #supportimg, #supportimg:hover{
   visibility: visible;
   opacity: 1;
   display: inline-block;
-}
-
-#contact{
-background-image: url("https://cloud.githubusercontent.com/assets/3527106/6100315/86913640-afdb-11e4-847f-00660029aed5.png");
-background-repeat: no-repeat;
-min-height: 400px;
-width: 100%;
-margin: auto;
 }
