@@ -39,6 +39,12 @@ height: 15%;
 align-items: center;
 }
 
+#section{
+height: 80%;
+background-image: url("img/catapult.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
 
 .section{
 margin-bottom: 3em
